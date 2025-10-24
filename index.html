@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cosmic Classroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0B1220; --text:#fff; --accent:#17C3FF; --panel:#0F1830; --line:#1E2A4A; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui}
+    header{padding:64px 20px;text-align:center;background:linear-gradient(180deg,rgba(23,195,255,.15),transparent)}
+    h1,h2{font-family:Montserrat,Inter,sans-serif} h1{margin:0 0 12px;font-size:40px}
+    p.lead{opacity:.85;max-width:720px;margin:0 auto 24px}
+    .btn{display:inline-block;padding:12px 18px;border:1px solid var(--accent);color:var(--accent);border-radius:8px;text-decoration:none;margin:4px}
+    main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+    section{margin:40px 0} .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+    a{color:var(--accent)} footer{opacity:.7;text-align:center;padding:24px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Explore Space, at Your Level 🚀</h1>
+    <p class="lead">From planets to black holes—short, visual lessons for primary through college students.</p>
+    <a class="btn" href="#levels">Start Learning</a>
+    <a class="btn" href="#solar">Explore the Solar System</a>
+  </header>
+  <main>
+    <section id="levels">
+      <h2>Learn by Level</h2>
+      <div class="grid">
+        <div class="card"><h3>Primary</h3><p>Day & night, Moon phases, the 8 planets, rockets.</p></div>
+        <div class="card"><h3>Middle School</h3><p>Gravity, orbits, seasons, the ISS, constellations.</p></div>
+        <div class="card"><h3>High School</h3><p>Telescopes, spectra, star life cycles, galaxies.</p></div>
+        <div class="card"><h3>College/Intro</h3><p>Exoplanets, orbital mechanics, cosmology basics.</p></div>
+      </div>
+    </section>
+    <section id="solar">
+      <h2>Explore the Solar System</h2>
+      <div class="grid">
+        <div class="card"><strong>The Sun</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/solar-system/sun/overview/">Learn more</a></div>
+        <div class="card"><strong>Mercury</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/mercury/overview/">Learn more</a></div>
+        <div class="card"><strong>Venus</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/venus/overview/">Learn more</a></div>
+        <div class="card"><strong>Earth & Moon</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/earth/overview/">Learn more</a></div>
+        <div class="card"><strong>Mars</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/mars/overview/">Learn more</a></div>
+        <div class="card"><strong>Jupiter</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/jupiter/overview/">Learn more</a></div>
+        <div class="card"><strong>Saturn</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/saturn/overview/">Learn more</a></div>
+        <div class="card"><strong>Uranus</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/uranus/overview/">Learn more</a></div>
+        <div class="card"><strong>Neptune</strong> — <a target="_blank" href="https://solarsystem.nasa.gov/planets/neptune/overview/">Learn more</a></div>
+      </div>
+    </section>
+    <section id="activities">
+      <h2>Activities & Quizzes</h2>
+      <ul>
+        <li>Oreo Moon Phases</li>
+        <li>Flour + marbles crater experiment</li>
+        <li>Scale Solar System walk</li>
+      </ul>
+      <p>Videos: <a target="_blank" href="https://www.youtube.com/@NASA">NASA YouTube</a></p>
+    </section>
+  </main>
+  <footer>Images/links courtesy of NASA/ESA where applicable.</footer>
+</body>
+</html>
